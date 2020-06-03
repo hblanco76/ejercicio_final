@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 195px;
+  margin-right: 200px;
+  padding-top: 15px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 12px;
+  font-family: "Liberation Serif", Georgia, serif;
+  font-weight: 400px;
+  font-stretch: 10px;
+}
+
+section.logo-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h1.subtitulo-item2 {
+  font-size: 50px;
+  color: #222;
+  text-align: center;
+  font-family: "Tiempos-Text", Constantia, "Lucida Bright", Lucidabright,
+    "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
+    "Liberation Serif", Georgia, serif;
+  padding: 10px 350px 10px 350px;
+}
+
+h1.subtitulo-item3 {
+  text-align: center;
+  font-family: "Tiempos-Text", Constantia;
+  color: #888;
+  letter-spacing: 0.5em;
+  font-size: 12px;
+}
+
+section.informacion-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+section.contenido {
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: "arial";
+  font-weight: 100;
+}
